@@ -1,10 +1,15 @@
 import { FC } from "react";
-import { createFileRoute } from "@tanstack/react-router";
+
+import { MainLayout } from "@widgets/layouts/main/ui";
+
+import { Home } from "./styles";
 
 export const HomePage: FC = () => {
-	return <h1>Home Page</h1>;
+	return (
+		<MainLayout>
+			<Home>
+				<h1>HomePage</h1>
+			</Home>
+		</MainLayout>
+	);
 };
-
-export const Route = createFileRoute("/home/ui/home-page")({
-	component: HomePage
-});
