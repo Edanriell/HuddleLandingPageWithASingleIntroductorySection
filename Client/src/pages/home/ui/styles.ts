@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const HomePageWrapper = styled.main`
 	padding-left: 40rem;
 	padding-right: 40rem;
+	position: relative;
+	z-index: 2;
 
 	@media (width >= 1440px) {
 		padding-left: 80rem;
@@ -21,12 +23,14 @@ export const IllustrationsWrapper = styled.div`
 	position: relative;
 	margin-top: 32rem;
 	margin-bottom: 92rem;
+	z-index: 2;
 `;
 
 export const DesktopInterfaceIllustration = styled.img`
 	position: relative;
 	width: 279rem;
 	height: 174rem;
+	z-index: 2;
 `;
 
 export const MobileInterfaceIllustration = styled.img`
@@ -35,6 +39,7 @@ export const MobileInterfaceIllustration = styled.img`
 	right: -14rem;
 	width: 93rem;
 	height: 148rem;
+	z-index: 2;
 `;
 
 export const HomeTitle = styled.h1`
@@ -76,7 +81,7 @@ export const RectangleMobile42 = styled.img`
 	height: 42rem;
 	top: 136rem;
 	left: -2rem;
-	z-index: 2;
+	z-index: 1;
 `;
 
 export const RectangleMobile28 = styled.img`
@@ -85,7 +90,7 @@ export const RectangleMobile28 = styled.img`
 	height: 28rem;
 	top: 49rem;
 	right: -20rem;
-	z-index: 2;
+	z-index: 1;
 `;
 
 export const RectangleMobile18 = styled.img`
@@ -94,7 +99,7 @@ export const RectangleMobile18 = styled.img`
 	height: 18rem;
 	top: 205rem;
 	left: 112rem;
-	z-index: 2;
+	z-index: 1;
 `;
 
 export const RectangleMobile17 = styled.img`
@@ -103,7 +108,7 @@ export const RectangleMobile17 = styled.img`
 	height: 17rem;
 	top: 202rem;
 	right: -12rem;
-	z-index: 2;
+	z-index: 1;
 `;
 
 export const RectangleMobile9 = styled.img`
@@ -112,5 +117,5 @@ export const RectangleMobile9 = styled.img`
 	height: 9rem;
 	top: 233rem;
 	left: 76rem;
-	z-index: 2;
+	z-index: 1;
 `;
