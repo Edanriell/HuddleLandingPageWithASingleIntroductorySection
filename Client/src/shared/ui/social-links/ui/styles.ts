@@ -9,6 +9,7 @@ export const SocialLinks = styled.ul`
 
 	@media (width >= 1440px) {
 		column-gap: 16rem;
+		justify-content: flex-end;
 	}
 `;
 
