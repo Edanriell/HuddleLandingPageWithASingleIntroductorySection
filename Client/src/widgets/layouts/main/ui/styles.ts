@@ -53,3 +53,48 @@ export const StripeDownDesktop = styled.img`
 		display: block;
 	}
 `;
+
+export const RectangleMobile42 = styled.img`
+	position: absolute;
+	width: 42rem;
+	height: 42rem;
+	top: 270rem;
+	left: 48rem;
+	z-index: 1;
+`;
+
+export const RectangleMobile28 = styled.img`
+	position: absolute;
+	width: 28rem;
+	height: 28rem;
+	top: 181rem;
+	right: 28rem;
+	z-index: 1;
+`;
+
+export const RectangleMobile18 = styled.img`
+	position: absolute;
+	width: 18rem;
+	height: 18rem;
+	top: 332rem;
+	left: 152rem;
+	z-index: 1;
+`;
+
+export const RectangleMobile17 = styled.img`
+	position: absolute;
+	width: 17rem;
+	height: 17rem;
+	top: 335rem;
+	right: 38rem;
+	z-index: 1;
+`;
+
+export const RectangleMobile9 = styled.img`
+	position: absolute;
+	width: 9rem;
+	height: 9rem;
+	top: 360rem;
+	left: 116rem;
+	z-index: 1;
+`;

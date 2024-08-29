@@ -11,12 +11,7 @@ import {
 	HomeTitle,
 	IllustrationsWrapper,
 	Link,
-	MobileInterfaceIllustration,
-	RectangleMobile17,
-	RectangleMobile18,
-	RectangleMobile28,
-	RectangleMobile42,
-	RectangleMobile9
+	MobileInterfaceIllustration
 } from "./styles";
 
 export const HomePage: FC = () => {
@@ -33,11 +28,6 @@ export const HomePage: FC = () => {
 							src="/images/vector/interface-small.svg"
 							alt="Mobile web interface illustration"
 						/>
-						<RectangleMobile42 src="/images/vector/figures/rectangle.svg" alt="" />
-						<RectangleMobile28 src="/images/vector/figures/rectangle.svg" alt="" />
-						<RectangleMobile18 src="/images/vector/figures/rectangle.svg" alt="" />
-						<RectangleMobile17 src="/images/vector/figures/rectangle.svg" alt="" />
-						<RectangleMobile9 src="/images/vector/figures/rectangle.svg" alt="" />
 					</IllustrationsWrapper>
 					<HomeContent>
 						<HomeTitle>Build The Community Your Fans Will Love</HomeTitle>

@@ -5,6 +5,11 @@ import { Footer } from "@widgets/footer/ui";
 
 import {
 	ContentWrapper,
+	RectangleMobile17,
+	RectangleMobile18,
+	RectangleMobile28,
+	RectangleMobile42,
+	RectangleMobile9,
 	StripeDownDesktop,
 	StripeLeftMobile,
 	StripeRightMobile,
@@ -25,6 +30,11 @@ export const MainLayout: FC<MainLayoutProps> = ({ children }) => {
 			<Header />
 			{children}
 			<Footer />
+			<RectangleMobile42 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobile28 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobile18 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobile17 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobile9 src="/images/vector/figures/rectangle.svg" alt="" />
 		</ContentWrapper>
 	);
 };
