@@ -5,6 +5,7 @@ import { MainLayout } from "@widgets/layouts/main/ui";
 import {
 	DesktopInterfaceIllustration,
 	Home,
+	HomeContent,
 	HomePageWrapper,
 	HomeText,
 	HomeTitle,
@@ -38,12 +39,14 @@ export const HomePage: FC = () => {
 						<RectangleMobile17 src="/images/vector/figures/rectangle.svg" alt="" />
 						<RectangleMobile9 src="/images/vector/figures/rectangle.svg" alt="" />
 					</IllustrationsWrapper>
-					<HomeTitle>Build The Community Your Fans Will Love</HomeTitle>
-					<HomeText>
-						Huddle re-imagines the way we build communities. You have a voice, but so does your
-						audience. Create connections with your users as you engage in genuine discussion.{" "}
-					</HomeText>
-					<Link href="#">Register</Link>
+					<HomeContent>
+						<HomeTitle>Build The Community Your Fans Will Love</HomeTitle>
+						<HomeText>
+							Huddle re-imagines the way we build communities. You have a voice, but so does your
+							audience. Create connections with your users as you engage in genuine discussion.{" "}
+						</HomeText>
+						<Link href="#">Register</Link>
+					</HomeContent>
 				</Home>
 			</HomePageWrapper>
 		</MainLayout>

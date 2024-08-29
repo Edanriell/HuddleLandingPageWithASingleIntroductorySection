@@ -5,6 +5,8 @@ export const HomePageWrapper = styled.main`
 	padding-right: 40rem;
 	position: relative;
 	z-index: 2;
+	display: block;
+	flex: 1 1 auto !important;
 
 	@media (width >= 1440px) {
 		padding-left: 80rem;
@@ -17,6 +19,11 @@ export const Home = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	@media (width >= 1440px) {
+		flex-direction: row;
+		column-gap: 97rem;
+	}
 `;
 
 export const IllustrationsWrapper = styled.div`
@@ -24,6 +31,11 @@ export const IllustrationsWrapper = styled.div`
 	margin-top: 32rem;
 	margin-bottom: 92rem;
 	z-index: 2;
+
+	@media (width >= 1440px) {
+		margin-top: 40rem;
+		margin-bottom: 69rem;
+	}
 `;
 
 export const DesktopInterfaceIllustration = styled.img`
@@ -31,6 +43,11 @@ export const DesktopInterfaceIllustration = styled.img`
 	width: 279rem;
 	height: 174rem;
 	z-index: 2;
+
+	@media (width >= 1440px) {
+		width: 657rem;
+		height: 410rem;
+	}
 `;
 
 export const MobileInterfaceIllustration = styled.img`
@@ -40,6 +57,20 @@ export const MobileInterfaceIllustration = styled.img`
 	width: 93rem;
 	height: 148rem;
 	z-index: 2;
+
+	@media (width >= 1440px) {
+		width: 219rem;
+		height: 350rem;
+		bottom: -82rem;
+		right: -26rem;
+	}
+`;
+
+export const HomeContent = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 620rem;
 `;
 
 export const HomeTitle = styled.h1`
