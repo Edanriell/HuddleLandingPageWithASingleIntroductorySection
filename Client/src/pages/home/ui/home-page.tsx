@@ -2,6 +2,8 @@ import { FC } from "react";
 
 import { MainLayout } from "@widgets/layouts/main/ui";
 
+import { Link } from "@shared/ui/button/ui";
+
 import {
 	DesktopInterfaceIllustration,
 	Home,
@@ -10,7 +12,6 @@ import {
 	HomeText,
 	HomeTitle,
 	IllustrationsWrapper,
-	Link,
 	MobileInterfaceIllustration
 } from "./styles";
 
