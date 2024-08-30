@@ -125,7 +125,7 @@ export const RectangleDesktopW56 = styled.img`
 	height: 56rem;
 	z-index: 1;
 	top: 64rem;
-	right: 120.8rem;
+	right: 122rem;
 	display: none;
 
 	@media (width >= 1440px) {
@@ -138,8 +138,8 @@ export const RectangleDesktopW32 = styled.img`
 	width: 32rem;
 	height: 32rem;
 	z-index: 1;
-	top: 41rem;
-	right: 482.75rem;
+	top: 46rem;
+	right: 484rem;
 	display: none;
 
 	@media (width >= 1440px) {
@@ -152,8 +152,8 @@ export const RectangleDesktopW322 = styled.img`
 	width: 32rem;
 	height: 32rem;
 	z-index: 1;
-	top: 164rem;
-	right: 713.75rem;
+	top: 180rem;
+	right: 714rem;
 	display: none;
 
 	@media (width >= 1440px) {
@@ -166,8 +166,8 @@ export const RectangleDesktopW17 = styled.img`
 	width: 17rem;
 	height: 17rem;
 	z-index: 1;
-	top: 594rem;
-	right: 190.96rem;
+	bottom: 182rem;
+	right: 200rem;
 	display: none;
 
 	@media (width >= 1440px) {
@@ -180,8 +180,8 @@ export const RectangleDesktopW38 = styled.img`
 	width: 38rem;
 	height: 38rem;
 	z-index: 1;
-	top: 682rem;
-	right: 305.26rem;
+	bottom: 76rem;
+	right: 316rem;
 	display: none;
 
 	@media (width >= 1440px) {
@@ -194,8 +194,8 @@ export const CircleDesktopW98 = styled.img`
 	width: 98rem;
 	height: 98rem;
 	z-index: 1;
-	top: 514rem;
-	right: 687rem;
+	bottom: 206rem;
+	right: 670rem;
 	display: none;
 
 	@media (width >= 1440px) {
@@ -208,8 +208,8 @@ export const CrossDesktopW53 = styled.img`
 	width: 53rem;
 	height: 53rem;
 	z-index: 1;
-	top: 707rem;
-	left: 59rem;
+	bottom: 34rem;
+	left: 80rem;
 	display: none;
 
 	@media (width >= 1440px) {

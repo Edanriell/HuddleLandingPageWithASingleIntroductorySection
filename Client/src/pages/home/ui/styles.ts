@@ -45,8 +45,8 @@ export const DesktopInterfaceIllustration = styled.img`
 	z-index: 2;
 
 	@media (width >= 1440px) {
-		width: 657rem;
-		height: 410rem;
+		width: auto;
+		height: auto;
 	}
 `;
 
@@ -59,10 +59,10 @@ export const MobileInterfaceIllustration = styled.img`
 	z-index: 2;
 
 	@media (width >= 1440px) {
-		width: 219rem;
-		height: 350rem;
-		bottom: -82rem;
-		right: -26rem;
+		width: auto;
+		height: auto;
+		bottom: -80rem;
+		right: -37rem;
 	}
 `;
 
@@ -108,6 +108,7 @@ export const HomeText = styled.p`
 	@media (width >= 1440px) {
 		font-size: 18rem;
 		text-align: left;
+		max-width: 490rem;
 	}
 `;
 
