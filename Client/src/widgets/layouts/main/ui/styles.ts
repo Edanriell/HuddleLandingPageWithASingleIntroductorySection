@@ -54,47 +54,165 @@ export const StripeDownDesktop = styled.img`
 	}
 `;
 
-export const RectangleMobile42 = styled.img`
+export const RectangleMobileW42 = styled.img`
 	position: absolute;
 	width: 42rem;
 	height: 42rem;
 	top: 270rem;
 	left: 48rem;
 	z-index: 1;
+
+	@media (width >= 1440px) {
+		display: none;
+	}
 `;
 
-export const RectangleMobile28 = styled.img`
+export const RectangleMobileW28 = styled.img`
 	position: absolute;
 	width: 28rem;
 	height: 28rem;
 	top: 181rem;
 	right: 28rem;
 	z-index: 1;
+
+	@media (width >= 1440px) {
+		display: none;
+	}
 `;
 
-export const RectangleMobile18 = styled.img`
+export const RectangleMobileW18 = styled.img`
 	position: absolute;
 	width: 18rem;
 	height: 18rem;
 	top: 332rem;
 	left: 152rem;
 	z-index: 1;
+
+	@media (width >= 1440px) {
+		display: none;
+	}
 `;
 
-export const RectangleMobile17 = styled.img`
+export const RectangleMobileW17 = styled.img`
 	position: absolute;
 	width: 17rem;
 	height: 17rem;
 	top: 335rem;
 	right: 38rem;
 	z-index: 1;
+
+	@media (width >= 1440px) {
+		display: none;
+	}
 `;
 
-export const RectangleMobile9 = styled.img`
+export const RectangleMobileW9 = styled.img`
 	position: absolute;
 	width: 9rem;
 	height: 9rem;
 	top: 360rem;
 	left: 116rem;
 	z-index: 1;
+
+	@media (width >= 1440px) {
+		display: none;
+	}
+`;
+
+export const RectangleDesktopW56 = styled.img`
+	position: absolute;
+	width: 56rem;
+	height: 56rem;
+	z-index: 1;
+	top: 64rem;
+	right: 122rem;
+	display: none;
+
+	@media (width >= 1440px) {
+		display: block;
+	}
+`;
+
+export const RectangleDesktopW32 = styled.img`
+	position: absolute;
+	width: 32rem;
+	height: 32rem;
+	z-index: 1;
+	top: 46rem;
+	right: 484rem;
+	display: none;
+
+	@media (width >= 1440px) {
+		display: block;
+	}
+`;
+
+export const RectangleDesktopW322 = styled.img`
+	position: absolute;
+	width: 32rem;
+	height: 32rem;
+	z-index: 1;
+	top: 180rem;
+	right: 714rem;
+	display: none;
+
+	@media (width >= 1440px) {
+		display: block;
+	}
+`;
+
+export const RectangleDesktopW17 = styled.img`
+	position: absolute;
+	width: 17rem;
+	height: 17rem;
+	z-index: 1;
+	bottom: 182rem;
+	right: 200rem;
+	display: none;
+
+	@media (width >= 1440px) {
+		display: block;
+	}
+`;
+
+export const RectangleDesktopW38 = styled.img`
+	position: absolute;
+	width: 38rem;
+	height: 38rem;
+	z-index: 1;
+	bottom: 76rem;
+	right: 316rem;
+	display: none;
+
+	@media (width >= 1440px) {
+		display: block;
+	}
+`;
+
+export const CircleDesktopW98 = styled.img`
+	position: absolute;
+	width: 98rem;
+	height: 98rem;
+	z-index: 1;
+	bottom: 206rem;
+	right: 670rem;
+	display: none;
+
+	@media (width >= 1440px) {
+		display: block;
+	}
+`;
+
+export const CrossDesktopW53 = styled.img`
+	position: absolute;
+	width: 53rem;
+	height: 53rem;
+	z-index: 1;
+	bottom: 34rem;
+	left: 80rem;
+	display: none;
+
+	@media (width >= 1440px) {
+		display: block;
+	}
 `;

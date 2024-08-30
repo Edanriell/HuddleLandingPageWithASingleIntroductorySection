@@ -4,12 +4,19 @@ import { Header } from "@widgets/header/ui";
 import { Footer } from "@widgets/footer/ui";
 
 import {
+	CircleDesktopW98,
 	ContentWrapper,
-	RectangleMobile17,
-	RectangleMobile18,
-	RectangleMobile28,
-	RectangleMobile42,
-	RectangleMobile9,
+	CrossDesktopW53,
+	RectangleDesktopW17,
+	RectangleDesktopW32,
+	RectangleDesktopW322,
+	RectangleDesktopW38,
+	RectangleDesktopW56,
+	RectangleMobileW17,
+	RectangleMobileW18,
+	RectangleMobileW28,
+	RectangleMobileW42,
+	RectangleMobileW9,
 	StripeDownDesktop,
 	StripeLeftMobile,
 	StripeRightMobile,
@@ -30,11 +37,18 @@ export const MainLayout: FC<MainLayoutProps> = ({ children }) => {
 			<Header />
 			{children}
 			<Footer />
-			<RectangleMobile42 src="/images/vector/figures/rectangle.svg" alt="" />
-			<RectangleMobile28 src="/images/vector/figures/rectangle.svg" alt="" />
-			<RectangleMobile18 src="/images/vector/figures/rectangle.svg" alt="" />
-			<RectangleMobile17 src="/images/vector/figures/rectangle.svg" alt="" />
-			<RectangleMobile9 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobileW42 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobileW28 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobileW18 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobileW17 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleMobileW9 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleDesktopW56 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleDesktopW32 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleDesktopW322 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleDesktopW17 src="/images/vector/figures/rectangle.svg" alt="" />
+			<RectangleDesktopW38 src="/images/vector/figures/rectangle.svg" alt="" />
+			<CircleDesktopW98 src="/images/vector/figures/circle.svg" alt="" />
+			<CrossDesktopW53 src="/images/vector/figures/cross.svg" alt="" />
 		</ContentWrapper>
 	);
 };
