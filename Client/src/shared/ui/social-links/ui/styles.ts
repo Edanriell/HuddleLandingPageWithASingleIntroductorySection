@@ -16,21 +16,3 @@ export const SocialLinks = styled.ul`
 export const SocialLinkWrapper = styled.li`
 	position: relative;
 `;
-
-export const SocialLink = styled.a`
-	position: relative;
-	box-sizing: border-box;
-	display: block;
-	width: 27.5rem;
-	height: 28rem;
-	border-radius: 100%;
-	background-color: rgba(0, 0, 0, 0);
-	border: 1rem solid #ffffff;
-	color: #ffffff;
-	z-index: 1;
-
-	@media (width >= 1440px) {
-		width: 40rem;
-		height: 40rem;
-	}
-`;
