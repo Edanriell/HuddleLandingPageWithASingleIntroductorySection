@@ -11,6 +11,19 @@ type SocialLinksListProps = {
 	classes?: string;
 };
 
+const socialLinksAnimationVariants = {
+	hover: {
+		scale: 1.15,
+		color: "#ff52c1",
+		borderColor: "#ff52c1"
+	},
+	tap: {
+		scale: 0.85,
+		color: "#ff52c1",
+		borderColor: "#ff52c1"
+	}
+};
+
 export const SocialLinksList: FC<SocialLinksListProps> = ({ classes }) => {
 	const socialLinks = [
 		{
@@ -36,7 +49,14 @@ export const SocialLinksList: FC<SocialLinksListProps> = ({ classes }) => {
 				{socialLinks.map(({ href, name, Icon }, index) => {
 					return (
 						<SocialLinkWrapper key={index + "-" + name}>
-							<motion.a className="social-link" href={href} target="_blank">
+							<motion.a
+								variants={socialLinksAnimationVariants}
+								whileHover="hover"
+								whileTap="tap"
+								className="social-link"
+								href={href}
+								target="_blank"
+							>
 								<span className="visually-hidden">{name}</span>
 								<Icon />
 							</motion.a>
