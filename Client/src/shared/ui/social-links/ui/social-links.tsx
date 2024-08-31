@@ -1,8 +1,11 @@
+import "./social-links.less";
+
 import { FC, Fragment } from "react";
+import { motion } from "framer-motion";
 
 import { Icon } from "@shared/ui/icon/ui";
 
-import { SocialLink, SocialLinks, SocialLinkWrapper } from "./styles";
+import { SocialLinks, SocialLinkWrapper } from "./styles";
 
 type SocialLinksListProps = {
 	classes?: string;
@@ -33,10 +36,10 @@ export const SocialLinksList: FC<SocialLinksListProps> = ({ classes }) => {
 				{socialLinks.map(({ href, name, Icon }, index) => {
 					return (
 						<SocialLinkWrapper key={index + "-" + name}>
-							<SocialLink href={href} target="_blank">
+							<motion.a className="social-link" href={href} target="_blank">
 								<span className="visually-hidden">{name}</span>
 								<Icon />
-							</SocialLink>
+							</motion.a>
 						</SocialLinkWrapper>
 					);
 				})}
