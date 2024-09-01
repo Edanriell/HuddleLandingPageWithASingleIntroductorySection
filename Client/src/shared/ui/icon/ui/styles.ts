@@ -1,4 +1,6 @@
-.facebook-icon {
+import styled from "styled-components";
+
+export const FacebookIcon = styled.svg`
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -10,13 +12,13 @@
 	width: 7rem;
 	height: 14rem;
 
-	@media  (width >= 1440px) {
+	@media (width >= 1440px) {
 		width: 9rem;
 		height: 19rem;
 	}
-}
+`;
 
-.twitter-icon {
+export const TwitterIcon = styled.svg`
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -28,13 +30,13 @@
 	width: 12rem;
 	height: 12rem;
 
-	@media  (width >= 1440px) {
+	@media (width >= 1440px) {
 		width: 18rem;
 		height: 18rem;
 	}
-}
+`;
 
-.instagram-icon {
+export const InstagramIcon = styled.svg`
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -46,8 +48,8 @@
 	width: 13rem;
 	height: 13rem;
 
-	@media  (width >= 1440px) {
+	@media (width >= 1440px) {
 		width: 18rem;
 		height: 18rem;
 	}
-}
+`;
