@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import { MainLayout } from "@widgets/layouts/main/ui";
 
-import { Link } from "@shared/ui/button/ui";
+import { Link } from "@shared/ui/link/ui";
 
 import {
 	DesktopInterfaceIllustration,
